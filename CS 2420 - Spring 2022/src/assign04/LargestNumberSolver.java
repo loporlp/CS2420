@@ -8,7 +8,14 @@ import java.util.List;
 
 public class LargestNumberSolver {
 
-	
+	/**
+	 * takes in an array and comparator
+	 * and runs insertion sort using the comparator given
+	 * 
+	 * @param <T>
+	 * @param arr array
+	 * @param cmp comparator object
+	 */
 	public static <T> void insertionSort(T[] arr, Comparator<? super T> cmp) {
 		for(int i = 0; i < arr.length; i++) {
 			T val = arr[i];
